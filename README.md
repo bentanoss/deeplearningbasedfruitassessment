@@ -2,9 +2,9 @@
 
 This repository contains Jupyter Notebooks and documentation for a third-year project focusing on automated fruit quality assessment using deep learning models, specifically comparing **YOLOv8** and **ResNet-34** architectures.
 
-## 📚 Project Overview
+## Project Overview
 
-The goal of this project is to automate fruit quality assessment based on external appearance (defects, bruises, discolorations) using two deep learning approaches:
+The goal of this project is to test and compare automated fruit quality assessment based on external appearance (defects, bruises, discolorations) of two deep learning approaches:
 - **ResNet-34** for classification of fruits into categories like fresh or defective.
 - **YOLOv8** for real-time object detection and defect localization.
 
@@ -12,19 +12,20 @@ Both models were trained and evaluated to determine the most suitable approach f
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 - `ResNet.ipynb` — Jupyter notebook for training and evaluating the ResNet-34 classifier.
 - `YOLO.ipynb` — Jupyter notebook for training and evaluating the YOLOv8 object detector.
 - `README.md` — Project overview and instructions.
+- `requirements.txt` — Required libraries of the current version of classification.
 
 ---
 
-## 🚀 Quick Start
+## Cloning
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/deeplearningbasedfruitassessment.git
+    git clone https://github.com/bentanoss/deeplearningbasedfruitassessment.git
     cd deeplearningbasedfruitassessment
     ```
 
@@ -39,7 +40,7 @@ Both models were trained and evaluated to determine the most suitable approach f
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 | Model     | Task                      | F1-Score | Object Detection | Speed          |
 |-----------|----------------------------|----------|------------------|----------------|
@@ -53,7 +54,8 @@ Both models were trained and evaluated to determine the most suitable approach f
 
 ## 📖 Report
 
-For detailed methodology, experiments, hyperparameter tuning, and results, refer to the full project report [here](link-or-attach-pdf).
+For detailed methodology, experiments, hyperparameter tuning, and results, refer to the full project report [here](https://github.com/user-attachments/files/19943328/11103559.pdf).
+
 
 ---
 
@@ -62,10 +64,3 @@ For detailed methodology, experiments, hyperparameter tuning, and results, refer
 - Supervisor: Dr. Zhenhong Li
 - University of Manchester
 - Special thanks to peers and family for their support.
-
----
-
-## 📬 Contact
-
-**Ben Reinhard Tanos**  
-Email: your.email@example.com
